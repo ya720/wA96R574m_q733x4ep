@@ -1,0 +1,372 @@
+
+
+
+body, html 
+    {
+      margin: 0;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #96a0b3;
+      font-family: Bahnschrift Condensed, sans-serif;
+    }
+	
+    .main-content {
+	  margin-top: 350px;
+      width: 370px;
+      height: 430px;
+      background-color: #f0f8ff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      padding: 40px;
+      box-sizing: border-box;
+      border-radius: 15px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+	
+	.falling-image {
+		position: absolute;
+		width: 100px;
+		height: auto;
+		top: -200px;
+		left: 55%;
+		transform: translateX(-50%);
+		animation: fall 3s ease-in-out forwards;
+	}		
+		.falling-image:nth-child(1) {
+    left: 15%;
+    animation-delay: 0.45s;
+}
+
+.falling-image:nth-child(2) {
+    left: 25%;
+    animation-delay: 1.47s;
+}
+
+.falling-image:nth-child(3) {
+    left: 35%;
+    animation-delay: 0.49s;
+}
+
+.falling-image:nth-child(4) {
+    left: 46%;
+    animation-delay: 0.49s;
+}
+
+.falling-image:nth-child(5) {
+    left: 55%;
+    animation-delay: 0.6s;
+}
+
+.falling-image:nth-child(6) {
+    left: 64%;
+    animation-delay: 0.5s;
+}
+
+.falling-image:nth-child(7) {
+    left: 18%;
+    animation-delay: 0.48s;
+}
+
+.falling-image:nth-child(8) {
+    left: 82%;
+    animation-delay: 0.53s;
+}
+
+.falling-image:nth-child(9) {
+    left: 93%;
+    animation-delay: 0.51s;
+}
+
+.falling-image:nth-child(10) {
+    left: 90%;
+    animation-delay: 1.49s;
+}
+
+.falling-image:nth-child(11) {
+    left: 100%;
+    animation-delay: 0.55s;
+}
+
+.falling-image:nth-child(12) {
+    left: 17%;
+    animation-delay: 0.7s;
+}
+
+.falling-image:nth-child(13) {
+    left: 19%;
+    animation-delay: 0.8s;
+}
+
+.falling-image:nth-child(14) {
+    left: 35%;
+    animation-delay: 0.75s;
+}
+
+.falling-image:nth-child(15) {
+    left: 49%;
+    animation-delay: 0.67s;
+}
+
+.falling-image:nth-child(16) {
+    left: 51%;
+    animation-delay: 0.89s;
+}
+
+.falling-image:nth-child(17) {
+    left: 78%;
+    animation-delay: 0.9s;
+}
+
+.falling-image:nth-child(18) {
+    left: 10%;
+    animation-delay: 1s;
+}
+
+.falling-image:nth-child(19) {
+    left: 37%;
+    animation-delay: 0.40s;
+}
+
+.falling-image:nth-child(20) {
+    left: 16%;
+    animation-delay: 0.99s;
+}
+
+.falling-image:nth-child(21) {
+    left: 84%;
+    animation-delay: 0.62s;
+}
+
+.falling-image:nth-child(22) {
+    left: 56%;
+    animation-delay: 0.55s;
+}
+
+.falling-image:nth-child(23) {
+    left: 5%;
+    animation-delay: 0.6;
+}
+
+.falling-image:nth-child(24) {
+    left: 95%;
+    animation-delay: 0.63s;
+}
+
+.falling-image:nth-child(25) {
+    left: 36%;
+    animation-delay: 1.26s;
+}
+
+.falling-image:nth-child(26) {
+    left: 28%;
+    animation-delay: 0.85s;
+}
+
+.falling-image:nth-child(27) {
+    left: 15%;
+    animation-delay: 0.48;
+}
+
+.falling-image:nth-child(28) {
+    left: 97%;
+    animation-delay: 1.3s;
+}
+
+.falling-image:nth-child(29) {
+    left: 25%;
+    animation-delay: 0.48s;
+}
+
+.falling-image:nth-child(30) {
+    left: 15%;
+    animation-delay: 0.87s;
+}
+
+.falling-image:nth-child(31) {
+    left: 4%;
+    animation-delay: 0.26s;
+}
+
+.falling-image:nth-child(32) {
+    left: 38%;
+    animation-delay: 0.49s;
+}
+
+.falling-image:nth-child(33) {
+    left: 16%;
+    animation-delay: 0.75s;
+}
+
+.falling-image:nth-child(34) {
+    left: 72%;
+    animation-delay: 1.7s;
+}
+
+.falling-image:nth-child(35) {
+    left: 28%;
+    animation-delay: 0.8s;
+}
+
+.falling-image:nth-child(36) {
+    left: 45%
+    animation-delay: 1.75s;
+}
+
+.falling-image:nth-child(37) {
+    left: 49%;
+    animation-delay: 0.67s;
+}
+
+.falling-image:nth-child(38) {
+    left: 51%;
+    animation-delay: 0.89s;
+}
+
+.falling-image:nth-child(39) {
+    left: 90%;
+    animation-delay: 0.9s;
+}
+
+.falling-image:nth-child(40) {
+    left: 42%;
+    animation-delay: 1s;
+}
+
+.falling-image:nth-child(41) {
+    left: 56%;
+    animation-delay: 1.40s;
+}
+
+.falling-image:nth-child(42) {
+    left: 84%;
+    animation-delay: 0.99s;
+}
+
+.falling-image:nth-child(43) {
+    left: 26%;
+    animation-delay: 0.88;
+}
+
+.falling-image:nth-child(44) {
+    left: 95%;
+    animation-delay: 1.55s;
+}
+
+.falling-image:nth-child(45) {
+    left: 49%;
+    animation-delay: 2.67s;
+}
+
+.falling-image:nth-child(46) {
+    left: 51%;
+    animation-delay: 1.89s;
+}
+
+.falling-image:nth-child(47) {
+    left: 90%;
+    animation-delay: 1.7s;
+}
+
+.falling-image:nth-child(48) {
+    left: 42%;
+    animation-delay: 2s;
+}
+
+.falling-image:nth-child(49) {
+    left: 56%;
+    animation-delay: 2.40s;
+}
+
+.falling-image:nth-child(50) {
+    left: 84%;
+    animation-delay: 2.79s;
+}
+
+.falling-image:nth-child(51) {
+    left: 26%;
+    animation-delay: 2.88;
+}
+
+.falling-image:nth-child(52) {
+    left: 95%;
+    animation-delay: 2.55s;
+}
+
+.big-paragraph {
+	font-size: 50em.;
+}
+
+
+
+	
+	
+	@keyframes fall {
+		0%  {
+		  top: -100px;
+		  opacity: 1;
+		}
+		
+		100% {
+			top: 100%;
+			opacity: 1;
+		}
+	}	
+			
+	
+
+    .content {
+      flex: 1;
+      padding-bottom: 20px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+	  margin-bottom: 100px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 28px;
+      background-color: #738fbf;
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.2s ease;
+      font-family: Bahnschrift Condensed, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+	  
+    }
+	
+	#wróćEtap7 {
+    position: relative;
+    top: -30px;
+}
+
+    .button:active {
+      transform: translateY(2px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .button:hover {
+      background-color: #5a728f;
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .main-content img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
